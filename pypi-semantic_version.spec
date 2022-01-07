@@ -17,12 +17,12 @@ BuildRequires : buildreq-distutils3
 Provides: semantic_version
 Provides: semantic_version-python
 Provides: semantic_version-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(setuptools)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 ======================
